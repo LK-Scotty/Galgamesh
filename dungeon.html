@@ -1,0 +1,32 @@
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Gal-gamesh Ken korekutā</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css"/>
+  </head>
+</html>
+<body oncontextmenu="return false">
+  <div id="convo"></div>
+  <canvas width="100" height="100" id="area"></canvas><img src="css/img/light.png" class="light"/>
+  <div class="portrait ui"><img src="" class="portraitchar"/><img src="" class="portraitbust"/></div><img src="css/img/portbor.png" id="portrait-border" class="ui"/>
+  <div class="hud-bar ui">
+    <div class="hp"></div>
+    <p class="hp-info">HP <span>100/100</span></p>
+  </div>
+  <div style="top:54px" class="hud-bar ui">
+    <div class="lv"></div>
+    <p class="lv-info">Lv. <span>1</span></p>
+  </div>
+  <div style="top:84px" class="hud-bar hud-text ui"><i class="fa fa-key"><span id="key-info">x0</span></i></div><img src="css/img/atk.png" id="btn-atk" class="mobile-ui"/>
+  <div id="circulare"><img src="css/img/circulare.png" id="circuloo"/></div><img src="css/img/backpack.png" value="false" id="btn-inventory"/>
+  <div id="log" class="ui"></div>
+  <audio preload="auto" autoplay="autoplay" controls="controls" loop="loop" id="audio-music"></audio>
+  <audio preload="auto" controls="controls" id="audio-fx"></audio><img src="css/img/music.png" id="music-play" class="mobile-ui"/>
+  <canvas width="100" height="100" id="transition"></canvas>
+  <script src="js/jquery-2.2.0.min.js"></script>
+  <script src="js/jquery.vibrate.min.js"></script>
+  <script src="js/shake.js"></script>
+</body>
